@@ -3,6 +3,8 @@ def unsafe?(speed)
     true
     elsif speed > 60
     true
+    elsif speed < 40 && > 60
+    true
   end
 end
 
